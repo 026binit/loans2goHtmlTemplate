@@ -336,7 +336,42 @@ body{
     align-items: center;
     padding: 15px 0;
 }
-
+.contact-section{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact-section--img{
+    
+}
+.contact-section--desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact-section--img img{
+   max-width: 100%;
+}
+.contact-section--desc--timining h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.contact-section--desc--timining p{
+    color: #7E7F86;
+    font-size: 16px;
+}
+.contact-section--desc--description p{
+    color: #8C8C91;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.contact-section--desc--contact h2{
+    color: #F43F00;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 /* Animation keyframes */
 
 @keyframes dropdown-menu{
