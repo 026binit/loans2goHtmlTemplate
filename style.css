@@ -288,6 +288,55 @@ body{
 .loan-description a:hover{
     color: #007bff;
 }
+.personal-loan-help-types{
+    padding: 50px;
+    background-color: #22242B;
+}
+.personal-loan-help-types h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.personal-loan-help-types--description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    margin: 15px 0 15px 0;
+}
+.personal-loan-help-types--description p{
+    color: #65666C;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.personal-loan-help-types--loan-types{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.personal-loan-help-types--loan-types h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.personal-loan-help-types--loan-types i{
+    color: #fff;
+}
+.personal-loan-help-types--loan-types--item--icon-container{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #F43F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal-loan-help-types--loan-types--item{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
 /* Animation keyframes */
 
 @keyframes dropdown-menu{
