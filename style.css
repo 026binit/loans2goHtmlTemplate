@@ -372,6 +372,25 @@ body{
     font-weight: 700;
     padding-bottom: 10px;
 }
+.loan-score-section{
+    background-image: url(img/score-bg.jpg);
+    height: 250px;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+.loan-score-section--content{
+    background-color: aqua;
+}
+.loan-score-section--img{
+    background-color: brown;
+}
+.loan-score-section--img img{
+    max-height: 112%;
+    position: absolute;
+    top: -30px;
+}
 /* Animation keyframes */
 
 @keyframes dropdown-menu{
