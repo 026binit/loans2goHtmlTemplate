@@ -160,7 +160,7 @@ body{
     cursor: pointer;
 }
 .choose-us{
-    
+    padding-bottom: 30px;
 }
 .choose-us h1{
     text-align: center;
@@ -214,6 +214,79 @@ body{
     border-radius: 25px;
     margin: auto;
     display: block;
+}
+.already-have-loan-section{
+    background-color: #E4E4E4;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.already-have-loan-section h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.already-have-loan-section h1 strong{
+    color: #F43F00;
+}
+.already-have-loan-section p{
+    color: #74757B;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.already-have-loan-section button{
+    background-color: #22242B;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    width: fit-content;
+}
+.loan-description-section{
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+.loan-description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.loan-description-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+}
+.loan-description img{
+    max-width: 100%;
+}
+.loan-description h1{
+    font-size: 30px;
+    color: #22242B;
+    font-weight: 600;
+}
+.loan-description p{
+    color: #8C8C91;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px; 
+    margin: 15px 0;
+}
+.loan-description a{
+    color: #F43F00;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.loan-description i{
+    color: #F43F00;
+    padding-left: 5px;
+}
+.loan-description a:hover{
+    color: #007bff;
 }
 /* Animation keyframes */
 
